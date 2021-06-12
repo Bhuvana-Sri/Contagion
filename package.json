@@ -1,0 +1,25 @@
+{
+  "name": "contagion",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "google-maps-react": "^2.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-geocode": "^0.2.1",
+    "react-google-autocomplete": "^1.2.6",
+    "react-graph-network": "^1.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}

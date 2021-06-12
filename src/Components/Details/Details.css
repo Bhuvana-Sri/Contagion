@@ -1,0 +1,60 @@
+.container {
+  background-color: white;
+  opacity: 90%;
+  top: 80px;
+  left: 60px;
+  padding: 20px 30px 0 30px;
+  height: 550px;
+  width: 460px !important;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.login {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px !important;
+}
+
+.label-text {
+  padding: 10px 0 4px 10px;
+  text-align: left;
+}
+
+.label-text-heading {
+  font-size: 15px !important;
+}
+
+.submit-button {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.gender {
+  margin-left: 50px !important;
+}
+
+.radio-option {
+  margin-top: 10px !important;
+  margin-left: 5px !important;
+  margin-right: 10px !important;
+}
+
+.plasma {
+  margin-top: 35px !important;
+  margin-left: 25px !important;
+}
+
+.plasma-toggle {
+  margin-left: 5px !important;
+  margin-top: 10px !important;
+}
+
+.check {
+  margin-top: 30px !important;
+}
+
+.list_class {
+  text-align: left;
+}

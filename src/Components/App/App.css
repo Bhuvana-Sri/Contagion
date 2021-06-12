@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-image: url("WorldMap.png");
+  background-size: cover;
+  height: 100%;
+}
+
+.side-menu {
+  padding-top: 30px !important;
+}

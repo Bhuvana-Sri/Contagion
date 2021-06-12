@@ -1,0 +1,18 @@
+.plasmaDonor {
+  background-color: white;
+  opacity: 95%;
+  top: 80px;
+  padding: 20px 50px 40px 50px;
+  height: 80%;
+  width: 50%;
+  border-radius: 10px;
+  overflow-y: scroll;
+  position: absolute;
+  left: 400px;
+}
+
+.plasma-header {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  color: firebrick !important;
+}
