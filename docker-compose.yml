@@ -1,0 +1,35 @@
+version: "3"
+services:
+  ui:
+    image: vhh-ui:0.1.0
+    restart: always
+    networks:
+      - contagion
+    build:
+      context: ./frontend
+    ports:
+    - "80:3000"
+
+  backend:
+    image: vhh-backend:0.1.0
+    ports:
+      - "5000:5000"
+    build:
+      context: ./backend
+    environment:
+      - MONGO_HOST=db
+    restart: always
+    networks:
+      - contagion
+  db:
+    image: bitnami/mongodb
+    ports:
+    - "27017:27017"
+    volumes:
+    - "/var/mongo:/bitnami/mongodb"
+    restart: always
+    networks:
+      - contagion
+networks:
+  contagion:
+    driver: bridge
